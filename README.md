@@ -1,4 +1,6 @@
 # Disaster Response Pipeline Project
+![sample_input](https://user-images.githubusercontent.com/23631502/155820027-c42cdcf1-dad8-4119-a18c-d1483f20753f.png)
+
 ### Summary:
 This is a web application written in python to automatically classify text messages into different categories of disaster management. Furthermore, two visualizations from the data set are available as examples.
 The project consists of 3 areas. 
