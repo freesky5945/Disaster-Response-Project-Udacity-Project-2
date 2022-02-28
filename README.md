@@ -1,7 +1,9 @@
 # Disaster Response Pipeline Project
-https://github.com/freesky5945/Disaster-Response-Project-Udacity-Project-2
+
 ![intro](https://user-images.githubusercontent.com/23631502/155820090-914027b9-480c-4855-bfae-cf36a7dcc388.png)
 
+GitHub Repo Link:
+https://github.com/freesky5945/Disaster-Response-Project-Udacity-Project-2
 
 ### Summary:
 This is a web application written in python to automatically classify text messages into different categories of disaster management. Furthermore, two visualizations from the data set are available as examples.
