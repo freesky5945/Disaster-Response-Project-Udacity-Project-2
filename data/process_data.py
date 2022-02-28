@@ -44,6 +44,10 @@ def clean_data(df):
     # drop duplicates
     df.drop(df[df.duplicated(keep="first")].index, inplace=True)
     
+    # There is a category 2 in 'related' column. This could be an error. 
+    # In the absense of any information, we assume it to be 1 as the majority class.
+    df['related']=df['related'].map(lambda x: 1 if x == 2 else x)
+    
     return df
 
 def save_data(df, database_filename):
